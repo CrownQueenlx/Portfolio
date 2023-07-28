@@ -12,10 +12,12 @@ header {
 }
 
 .container {
-    margin: 4vw;
-    max-width: 70%;
+    margin: 1vw;
+    max-width: 82%;
     float: left;
-    color: #f5f0ff;
+    color: black;
+    padding-left: 2vh;
+    background-color: #f5f0ff74;
 }
 
 h5 {
@@ -31,4 +33,18 @@ h5 {
 
 td {
     padding: 0, 1 6%;
+}
+
+div .staticRegisterPage {
+    background-image: url(../assets/staticRegisterPage.jpg);
+    min-height: 15vh;
+    min-width: 230px;
+    background-repeat: no-repeat;
+}
+
+div .staticLayoutApp {
+    background-image: url(assets/StaticStore.png);
+    min-height: 15vh;
+    min-width: 230px;
+    background-repeat: no-repeat;
 }
