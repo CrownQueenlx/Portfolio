@@ -4,47 +4,75 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    
+
 }
 
 header {
     background-color: #a56ad398;
+    border-radius: 30px;
 }
 
 .container {
-    margin: 1vw;
+    margin: 5vh 1vw;
     max-width: 82%;
+    max-height: fit-content;
+    min-height: 250vh;
     float: left;
     color: black;
     padding-left: 2vh;
     background-color: #f5f0ff74;
+    border-radius: 50px;
 }
 
 h5 {
     font-size: xx-small;
+    margin-top: 2vh;
 }
 
-.sidebar{
+.sidebar {
     width: 15%;
     background-color: #f5f0ffaf;
     float: right;
     padding: 2%;
+    padding-top: 5%;
+    min-height: 255vh;
+}
+.sidebar p {
+    margin-top: 2%;
+    min-width: fit-content;
 }
 
 td {
-    padding: 0, 1 6%;
+    padding-right: 7%;
+    margin-right: 7%;
+    white-space: nowrap;
+    min-width: fit-content;
+
 }
 
 div .staticRegisterPage {
     background-image: url(../assets/staticRegisterPage.jpg);
     min-height: 15vh;
-    min-width: 230px;
+    min-width: 20vw;
     background-repeat: no-repeat;
 }
 
 div .staticLayoutApp {
-    background-image: url(assets/StaticStore.png);
+    background-image: url(../assets/StaticStore.png);
     min-height: 15vh;
-    min-width: 230px;
+    min-width: 10vw;
     background-repeat: no-repeat;
+}
+
+div .creatureAssignment {
+    background-image: url(../assets/CreatureAssignment.png);
+    min-height: 15vh;
+    min-width: 20vw;
+    max-height: 15vh;
+    max-width: 15vw;
+    background-repeat: no-repeat;
+}
+.pad {
+    padding-top: 5%;
+    margin: 0 5%;
 }
