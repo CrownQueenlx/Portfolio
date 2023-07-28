@@ -1,7 +1,34 @@
 body {
-    background-color: #a56ad349;
+    background-image: url(../assets/photographyTransparent2_5663739556238590101.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+header {
+    background-color: #a56ad398;
 }
 
 .container {
     margin: 4vw;
+    max-width: 70%;
+    float: left;
+    color: #f5f0ff;
+}
+
+h5 {
+    font-size: xx-small;
+}
+
+.sidebar{
+    width: 15%;
+    background-color: #f5f0ffaf;
+    float: right;
+    padding: 2%;
+}
+
+td {
+    padding: 0, 1 6%;
 }
