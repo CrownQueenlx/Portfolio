@@ -66,23 +66,27 @@ td {
 
 div .staticRegisterPage {
     background-image: url(../assets/staticRegisterPage.jpg);
-    min-height: 15vh;
+    min-height: 22vh;
     min-width: 20vw;
+    max-height: 22vh;
+    max-width: 15vw;
     background-repeat: no-repeat;
 }
 
 div .staticLayoutApp {
     background-image: url(../assets/StaticStore.png);
-    min-height: 15vh;
-    min-width: 10vw;
+    min-height: 22vh;
+    min-width: 20vw;
+    max-height: 22vh;
+    max-width: 15vw;
     background-repeat: no-repeat;
 }
 
 div .creatureAssignment {
     background-image: url(../assets/CreatureAssignment.png);
-    min-height: 15vh;
+    min-height: 22vh;
     min-width: 20vw;
-    max-height: 15vh;
+    max-height: 22vh;
     max-width: 15vw;
     background-repeat: no-repeat;
 }
@@ -91,6 +95,8 @@ div .creatureAssignment {
 }
 .pad {
     padding-top: 5%;
+}
+.mar {
     margin: 0 5%;
 }
 
