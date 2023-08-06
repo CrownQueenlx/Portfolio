@@ -1,3 +1,9 @@
+@charset "utf-8";
+.courier {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(29, 31, 30);
+    font-weight: 300;
+}
 body {
     background-image: url(../assets/photographyTransparent2_5663739556238590101.jpg);
     background-size: cover;
@@ -5,6 +11,11 @@ body {
     background-position: center;
     min-height: 100vh;
 
+}
+.profile {
+    border-radius: 50%;
+    background-image: url(../assets/profileImg.jpg);
+    max-width: 10em;
 }
 
 header {
@@ -82,4 +93,7 @@ div .creatureAssignment {
 
 .side{
     padding-left: 20px;
+}
+.lt {
+    float: left;
 }
