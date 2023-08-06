@@ -47,10 +47,13 @@ h5 {
     padding: 2%;
     padding-top: 5%;
     min-height: 255vh;
+    font-size: x-small;
+
 }
 .sidebar p {
     margin-top: 2%;
     min-width: fit-content;
+    font-size: x-small;
 }
 
 td {
@@ -84,7 +87,7 @@ div .creatureAssignment {
     background-repeat: no-repeat;
 }
 .extra {
-    padding-top: 50%;
+    padding-top: 60%;
 }
 .pad {
     padding-top: 5%;
