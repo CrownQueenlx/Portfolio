@@ -71,6 +71,7 @@ div .staticRegisterPage {
     max-height: 22vh;
     max-width: 15vw;
     background-repeat: no-repeat;
+    margin-bottom: 5%;
 }
 
 div .staticLayoutApp {
@@ -91,7 +92,7 @@ div .creatureAssignment {
     background-repeat: no-repeat;
 }
 .extra {
-    padding-top: 60%;
+    padding-top: 60vh;
 }
 .pad {
     padding-top: 5%;
@@ -105,4 +106,7 @@ div .creatureAssignment {
 }
 .lt {
     float: left;
+}
+.rt {
+    float: right;
 }
