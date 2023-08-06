@@ -72,7 +72,14 @@ div .creatureAssignment {
     max-width: 15vw;
     background-repeat: no-repeat;
 }
+.extra {
+    padding-top: 50%;
+}
 .pad {
     padding-top: 5%;
     margin: 0 5%;
+}
+
+.side{
+    padding-left: 20px;
 }
