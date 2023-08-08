@@ -14,7 +14,6 @@ body {
 }
 .profile {
     border-radius: 50%;
-    background-image: url(../assets/profileImg.jpg);
     max-width: 10em;
 }
 
@@ -56,14 +55,6 @@ h5 {
     font-size: x-small;
 }
 
-td {
-    padding-right: 7%;
-    margin-right: 7%;
-    white-space: nowrap;
-    min-width: fit-content;
-
-}
-
 div .staticRegisterPage {
     background-image: url(../assets/staticRegisterPage.jpg);
     min-height: 22vh;
@@ -96,9 +87,14 @@ div .creatureAssignment {
 }
 .pad {
     padding-top: 5%;
+    padding-right: 0;
+}
+.padded {
+    padding-top: 5%;
+    padding-right: 2vw;
 }
 .mar {
-    margin: 0 5%;
+    margin: 0, 5%;
 }
 
 .side{
@@ -109,4 +105,11 @@ div .creatureAssignment {
 }
 .rt {
     float: right;
+    padding-top: 6.858%;
+}
+.text-end {
+    align-items: right;
+}
+.wider {
+    min-width: 78vw;
 }
